@@ -19,7 +19,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Test 10x10
-        command: python -m unittest tests.test10x10
+        command: python -m unittest tests/test10x10.py
         timeout: 1
         max-score: 1
 
@@ -28,7 +28,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Test 10x10 Size
-        command: python -m unittest tests.test10x10_size
+        command: python -m unittest tests/test10x10_size.py
         timeout: 1
         max-score: 1
 
@@ -37,7 +37,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Test 3x8
-        command: python -m unittest tests.test3x8
+        command: python -m unittest tests/test3x8.py
         timeout: 1
         max-score: 1
 
@@ -46,7 +46,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Test 3x8 Size
-        command: python -m unittest tests.test3x8_size
+        command: python -m unittest tests/test3x8_size.py
         timeout: 1
         max-score: 1
 
@@ -55,7 +55,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Test Bad 1
-        command: python -m unittest tests.testBad1
+        command: python -m unittest tests/testBad1.py
         timeout: 1
         max-score: 1
 
@@ -64,7 +64,7 @@ jobs:
       uses: classroom-resources/autograding-command-grader@v1
       with:
         test-name: Test Bad 2
-        command: python -m unittest tests.testBad2
+        command: python -m unittest tests/testBad2.py
         timeout: 1
         max-score: 1
 
